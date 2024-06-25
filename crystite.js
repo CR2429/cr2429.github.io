@@ -37,7 +37,7 @@ function _1d9() {
 }
 
 function _1d3() {
-    let result = Math.floor(Math.random() * 2) + 1;
+    let result = Math.floor(Math.random() * 3) + 1;
     let result_str = "";
 
     switch(result){
