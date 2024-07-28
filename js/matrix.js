@@ -7,11 +7,11 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
-var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
 //converting the string into an array of single characters
 matrix = matrix.split("");
 
-var font_size = 10;
+var font_size = 15;
 var columns = c.width/font_size; //number of columns for the rain
 //an array of drops - one per column
 var drops = [];
@@ -25,11 +25,11 @@ function draw()
 {
     //Black BG for the canvas
     //translucent BG to show trail
-    ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+    ctx.fillStyle = "rgba(0, 0, 0, 0.15)";
     ctx.fillRect(0, 0, c.width, c.height);
 
-    ctx.fillStyle = "#f4427d";//green text
-    ctx.font = font_size + "px arial";
+    ctx.fillStyle = "#da930f";//green text
+    ctx.font = "30px LangitienV1";
     //looping over drops
     for(var i = 0; i < drops.length; i++)
     {
@@ -48,4 +48,4 @@ function draw()
     }
 }
 
-setInterval(draw, 35);
+setInterval(draw, 50);
