@@ -192,7 +192,9 @@ function blanche() {
     }
 
     //ajout dans le str
+    str = str + "<br> --CRYSTITE BLANCHE--";
     str = str + "<br>" + "Statistique principale : " + stat1;
+    
 
     //envoie du resultat
     $("#crystite-result").html(str)
@@ -215,6 +217,7 @@ function verte() {
         }
     
         //ajout dans le str
+        str = str + "<br> --CRYSTITE VERTE--";
         str = str + "<br>" + "Statistique principale : " + stat1;
         
         //stat2
@@ -241,6 +244,7 @@ function bleu() {
     }
 
     //ajout dans le str
+    str = str + "<br> --CRYSTITE BLEU--";
     str = str + "<br>" + "Statistique principale : " + stat1;
     
     //stat2
@@ -280,6 +284,7 @@ function orange() {
     }
 
     //ajout dans le str
+    str = str + "<br> --CRYSTITE ORANGE--";
     str = str + "<br>" + "Statistique principale : " + stat1;
     
     //stat2
