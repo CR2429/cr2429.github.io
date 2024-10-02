@@ -251,7 +251,7 @@ function bleu() {
     str = str +"<br>+" + _1d20() + " " + _1d4();
 
     //stat3
-    if(Math.random() == 1) {
+    if(Math.floor(Math.random() * 2) == 1) {
         str = str +"<br>+" + _1d10() + " " + _1d4();
     } else {
         str = str +"<br>+" + _1d10() + " " + _1d5();
@@ -291,7 +291,7 @@ function orange() {
     str = str +"<br>+" + _1d30() + " " + _1d4();
 
     //stat3
-    if(Math.random() == 1) {
+    if(Math.floor(Math.random() * 2) == 1) {
         str = str +"<br>+" + _1d20() + " " + _1d4();
     } else {
         str = str +"<br>+" + _1d20() + " " + _1d5();
