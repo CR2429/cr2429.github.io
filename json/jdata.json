@@ -1,0 +1,18 @@
+{
+  "univers_name": "Langitia",
+  "crystalien_actif": 1,
+  "crystaliens": [
+    {
+      "nom": "Guillaume",
+      "matricule": "CR2429"
+    },
+    {
+      "nom": "Alex",
+      "matricule": "CR2430"
+    },
+    {
+      "nom": "Slimile",
+      "matricule": "CR800"
+    }
+  ]
+}
